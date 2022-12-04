@@ -41,12 +41,13 @@ color:white;
 }
 `
 export const ImagemMe = styled.img`
-width: 50%;
-height: 7%;
-border-radius: 40px;
-position: absolute;
-max-width: 45px;
-cursor: pointer;
+    width: 50%;
+    height: 6%;
+    max-height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    max-width: 45px;
+    cursor: pointer;
 `
 ImagemMe.defaultProps = {
     src: Eu,
