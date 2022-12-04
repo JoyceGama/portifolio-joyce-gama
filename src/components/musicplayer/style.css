@@ -1,0 +1,60 @@
+.container-player{
+    display: flex;
+    flex-direction: column;
+    margin-left:40px;
+    width: 50%;
+}
+
+.container-letras{
+    width: 25%;
+}
+
+.lista-musicas{
+    width: 5%;
+    cursor: pointer;
+}
+
+.next{
+    margin-left: 10px;
+    width: 5%;
+    cursor: pointer;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(18 47 93);
+    border:none;
+  }
+  
+  audio::-webkit-media-controls-mute-button {
+    background-color:#196dd0;
+  }
+
+  audio::-webkit-media-controls-play-button {
+    background-color: #196dd0;
+  }
+
+  audio::-webkit-media-controls-current-time-display {
+    color: white;
+  }
+
+  audio::-webkit-media-controls-time-remaining-display {
+    color: white;
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #196dd0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #196dd0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  audio {
+    width: 60%;
+    height: 15px;
+  }
+
